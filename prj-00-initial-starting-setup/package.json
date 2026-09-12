@@ -1,0 +1,23 @@
+{
+  "name": "understanding-typescript",
+  "version": "1.0.0",
+  "description": "Understanding TypeScript Course Setup",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "concurrently \"npm run watch\" \"lite-server\""
+  },
+  "keywords": [
+    "typescript",
+    "course"
+  ],
+  "author": "Maximilian Schwarzmüller",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "concurrently": "^9.2.1",
+    "typescript": "^7.0.2"
+  }
+}
