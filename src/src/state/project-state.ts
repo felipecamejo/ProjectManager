@@ -23,8 +23,7 @@ import { Project } from "../models/project";
             if (this.instance) {
                 return this.instance;
             }
-            this.instance = new ProjectState()
-            return this.instance;
+            return new ProjectState()
         }
 
         addProject(title: string, description: string, people: number) {
